@@ -4,13 +4,13 @@ function init() {
   let list = ["one", "two", "three"];
 
   // API Keys
-  const rapidAPIKey = "6258e18b25mshd96a594dcf7fcb5p1b1fd6jsn955bae6d8f8b";
-  const speechAPIKey = "17e8c83f04474613b13eb338fe823dd1";
+  const rapidApiKey = "6258e18b25mshd96a594dcf7fcb5p1b1fd6jsn955bae6d8f8b";
+  const speechApiKey = "17e8c83f04474613b13eb338fe823dd1";
 
   // URLS
   let url =
     "https://voicerss-text-to-speech.p.rapidapi.com/?key=" +
-    speechAPIKey +
+    speechApiKey +
     "&src=" +
     word +
     "&hl=en-us&r=0&c=mp3&f=8khz_8bit_mono";
@@ -19,7 +19,7 @@ function init() {
   const wordsOptions = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": rapidAPIKey,
+      "X-RapidAPI-Key": rapidApiKey,
       "X-RapidAPI-Host": "wordsapiv1.p.rapidapi.com",
     },
   };
