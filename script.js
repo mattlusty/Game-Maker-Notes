@@ -38,6 +38,7 @@ speak2(thing);
 speakOther(thing);
 dog(thing);
 doStuff(thing);
+doThat(thing);
 
 
   
