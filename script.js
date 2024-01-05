@@ -17,8 +17,12 @@ function foo () {
 
 let thing = "hello";
 let number = 3643;
+
 foo(list);
 duck.speak(thing);
+
+let speak2 = duck.speak;
+speak2(thing);
 
 
   
