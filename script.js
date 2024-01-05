@@ -6,7 +6,7 @@ list.toString();
 
 let duck = {
   name: "Donald", 
-  speak: function() {
+  speak: function(word) {
     console.log("quack quack");
   }
 };
@@ -15,8 +15,9 @@ function foo () {
   let goo = "hello";
 }
 
-foo();
-duck.speak();
+let thing = "hello";
+foo(list);
+duck.speak(thing);
 
 
   
