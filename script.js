@@ -16,6 +16,7 @@ function foo () {
 }
 
 let thing = "hello";
+let number = 3643;
 foo(list);
 duck.speak(thing);
 
