@@ -18,5 +18,8 @@ function foo () {
 foo();
 duck.speak();
 
+function (){
+    let hoo;
+}
 
   
