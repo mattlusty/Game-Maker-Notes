@@ -22,11 +22,13 @@ foo(list);
 duck.speak(thing);
 
 let speakOther = duck.speak.word;
+let dog = "woof";
 duck.name();
 name(thing);
 speek(thing);
 speak(thing);
 speak2(thing);
 speakOther(thing);
+dog(thing);
 
   
