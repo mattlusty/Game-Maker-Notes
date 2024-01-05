@@ -21,8 +21,15 @@ let number = 3643;
 foo(list);
 duck.speak(thing);
 
-let speakOther = duck.speak.word;
+let speakOther = duck.speak;
 let dog = "woof";
+let doStuff = function () {
+  console.log("stuff");
+}
+let doThat = () => {
+  console.log("that");
+}
+
 duck.name();
 name(thing);
 speek(thing);
@@ -30,5 +37,7 @@ speak(thing);
 speak2(thing);
 speakOther(thing);
 dog(thing);
+doStuff(thing);
+
 
   
