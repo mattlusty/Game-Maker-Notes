@@ -21,7 +21,7 @@ let number = 3643;
 foo(list);
 duck.speak(thing);
 
-let speak2 = duck.speak;
+let speak2 = duck.speak.word;
 speak2(thing);
 
 
