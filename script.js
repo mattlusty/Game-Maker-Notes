@@ -20,6 +20,7 @@ duck.speak();
 
 function (){
     let hoo;
+    hoo;
 }
 
   
