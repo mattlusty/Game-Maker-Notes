@@ -24,6 +24,8 @@ duck.speak(thing);
 let speak2 = duck.speak.word;
 duck.name();
 name(thing);
+speek(thing);
+speak(thing);
 speak2(thing);
 
 
