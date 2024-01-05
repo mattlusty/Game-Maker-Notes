@@ -22,6 +22,7 @@ foo(list);
 duck.speak(thing);
 
 let speak2 = duck.speak.word;
+duck.name();
 speak2(thing);
 
 
