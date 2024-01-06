@@ -34,3 +34,4 @@ boo;
 goo;
 
 let Goo = new Goo();
+let _fox = 5;
