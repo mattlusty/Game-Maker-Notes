@@ -1,44 +1,20 @@
-let list = ["apple", "banana", "cake"];
-list.push("duck");
-list.slice(1);
-list.pop();
-list.toString();
+let list = ["one", "two", "three"];
 
-let duck = {
-  name: "Donald", 
-  speak: function(word) {
-    console.log("quack quack");
-  }
+let balloon = {
+  colour: "red",
+  pop: function () {
+    console.log("Popped!");
+  },
+  push: function () {
+    console.log("Hey don't push me!");
+  },
 };
 
-function foo () {
-  let goo = "hello";
-}
+list.pop();
+list.splice();
 
-let thing = "hello";
-let number = 3643;
+list.toString();
+list.map();
 
-foo(list);
-duck.speak(thing);
-
-let speakOther = duck.speak;
-let dog = "woof";
-let doStuff = function () {
-  console.log("stuff");
-}
-let doThat = () => {
-  console.log("that");
-}
-
-duck.name();
-name(thing);
-speek(thing);
-speak(thing);
-speak2(thing);
-speakOther(thing);
-dog(thing);
-doStuff(thing);
-doThat(thing);
-
-
-  
+balloon.pop();
+balloon.push();
