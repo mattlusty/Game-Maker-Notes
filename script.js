@@ -1,13 +1,14 @@
 let list = ["one", "two", "three"];
 
 let balloon = {
-  colour: "red",
+  colour: "red",p
   pop: function () {
     console.log("Popped!");
   },
   push: function () {
     console.log("Hey don't push me!");
   },
+  fly: function (){}
 };
 
 list.pop();
@@ -18,3 +19,5 @@ list.map();
 
 balloon.pop();
 balloon.push();
+balloon.fly();
+
