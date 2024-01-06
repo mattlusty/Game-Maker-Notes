@@ -29,5 +29,6 @@ fly();
 foo();
 boo();
 goo();
+foo;
 boo;
-
+goo;
