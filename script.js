@@ -32,3 +32,5 @@ goo();
 foo;
 boo;
 goo;
+
+let Goo = new Array();
