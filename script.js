@@ -14,7 +14,7 @@ let balloon = {
 function foo (){}
 
 let boo = function (){}
-let goo = foo;
+let goo = boo;
 
 list.pop();
 list.splice();
