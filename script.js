@@ -11,6 +11,8 @@ let balloon = {
   fly: function (){}
 };
 
+function foo (){}
+
 list.pop();
 list.splice();
 
@@ -20,4 +22,6 @@ list.map();
 balloon.pop();
 balloon.push();
 balloon.fly();
+fly();
+foo();
 
