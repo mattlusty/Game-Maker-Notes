@@ -13,9 +13,9 @@ function VectorA (_x, _y) constructor {
 
 // Create a new "VectorB" object/struct instance - using the constructor function ...
 
-var _myVectorA1 = new Vector(8, 6);
+var myVectorA1 = new VectorA(8, 6);
 
-show_message(string(myVectorB1)); // {x: 8, y: 6}
+show_message(string(myVectorA1)); // {x: 8, y: 6}
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
