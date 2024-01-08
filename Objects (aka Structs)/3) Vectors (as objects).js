@@ -17,6 +17,9 @@ show_message(myVector1.x); // 3
 // Set (change) the value of myVector1's x property
 myVector1.x = 5;
 
+// Show the string representation on the object
+show_message(string(myVector1)); // "{x: 5, y: 8}"
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Object/struct vector (with methods) ...
@@ -41,8 +44,9 @@ show_message(myVector2.y); // 12
 // Set (change) the value of myVector1's x property
 myVector2.y = 20;
 
+// Show the string representation on the object ...
 // Interesting fact, when GMS tries to convert an object to a string (using the string() function)
-// - It first checks to see if there is a custom toString() method on the object 
+// - It first checks to see if there is a custom toString() method on the object
 // - Hence why we see our custom toString() output! ...
 show_message(string(myVector2)); // "{ x is ... 10, y is ... 20 }"
 
