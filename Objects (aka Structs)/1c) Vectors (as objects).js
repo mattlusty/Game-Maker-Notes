@@ -4,7 +4,7 @@
 
 // Simple object/struct (representing a vector)
 
-var _myVector1 = {
+var myVector1 = {
   x: 3,
   y: 8
 }
