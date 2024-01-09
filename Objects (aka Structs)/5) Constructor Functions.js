@@ -68,3 +68,21 @@ myVectorB1.add(myVectorA1);
 
 // See that how the "add" method has changed the myVectorB1's x, y properties
 show_message(string(myVectorB1)); // {x: 15, y: 28}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Quickly create more VectorB instances!
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var player1Pos = new VectorB(100, 150);
+var player2Pos = new VectorB(200, 150);
+
+var player1Vel = new VectorB(0, 0);
+var player1Vel = new VectorB(10, 5);
+
+var windVel = new VectorB(30, 10);
+
+// Each step ...
+player1Pos.add(player1Vel);
+player2Pos.add(player2Vel);
+
+
