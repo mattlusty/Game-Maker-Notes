@@ -17,10 +17,10 @@ function VectorA (_x, _y) constructor {
 
 var myVectorA1 = new VectorA(3, 8);
 
-// Get the value of myVector1's x property
+// Get the value of myVectorA1's x property
 show_message(myVectorA1.x); // 3
 
-// Set (change) the value of myVector1's x property
+// Set (change) the value of myVectorA1's x property
 myVectorA1.x = 5;
 
 show_message(string(myVectorA1)); // {x:5, y: 8}
