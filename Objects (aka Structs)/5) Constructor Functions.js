@@ -13,7 +13,7 @@ function VectorA (_x, _y) constructor {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Create a new "VectorA" object/struct instance - using the constructor function ...
+// Create a new "VectorA1" object/struct instance - using the constructor function ...
 
 var myVectorA1 = new VectorA(3, 8);
 
