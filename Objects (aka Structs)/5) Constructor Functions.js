@@ -77,12 +77,17 @@ var player1Pos = new VectorB(100, 150);
 var player2Pos = new VectorB(200, 150);
 
 var player1Vel = new VectorB(0, 0);
-var player1Vel = new VectorB(10, 5);
+var player2Vel = new VectorB(10, 5);
+
+var player1Acc = new VectorB(3, 6);
+var player2Acc = new VectorB(0, 0);
 
 var windVel = new VectorB(30, 10);
 
 // Each step ...
+
+player1Vel.add(player1Acc);
+player2Vel.add(player2Acc);
+
 player1Pos.add(player1Vel);
 player2Pos.add(player2Vel);
-
-
