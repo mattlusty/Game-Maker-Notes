@@ -86,8 +86,10 @@ var windVel = new VectorB(30, 10);
 
 // Each step ...
 
+// Change velocity (using acceleration)
 player1Vel.add(player1Acc);
 player2Vel.add(player2Acc);
 
+// Change position (using velocity)
 player1Pos.add(player1Vel);
 player2Pos.add(player2Vel);
