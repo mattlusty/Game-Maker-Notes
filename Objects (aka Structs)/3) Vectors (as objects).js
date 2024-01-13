@@ -38,10 +38,10 @@ var myVector2 =  {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Get the value of myVector1's x property
+// Get the value of myVector2's y property
 show_message(myVector2.y); // 12
 
-// Set (change) the value of myVector1's x property
+// Set (change) the value of myVector2's y property
 myVector2.y = 20;
 
 // Show the string representation on the object ...
